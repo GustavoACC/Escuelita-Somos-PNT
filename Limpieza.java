@@ -1,11 +1,11 @@
-package ejercicio_somos_pnt;
+package com.ejercicio;
 
 public class Limpieza extends Producto {
     
     private int Contenido;
     
-    public Limpieza(int precio, String nombre, int contenido){
-       super(precio,nombre);
+    public Limpieza(int precio, String descripcion, int contenido){
+       super(precio,descripcion);
        this.Contenido = contenido;
     }
     

@@ -1,13 +1,13 @@
-package ejercicio_somos_pnt;
+package com.ejercicio;
 
-public class Producto implements Comparable<Producto> {
+abstract class Producto implements Comparable<Producto> {
 
     protected int Precio;
     protected String Descripcion;
     
-    public Producto(int precio, String nombre){
+    public Producto(int precio, String descripcion){
         this.Precio = precio;
-        this.Descripcion = nombre;
+        this.Descripcion = descripcion;
     }
     
     
